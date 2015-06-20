@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rEj-IT-ea0"/>
+                        <viewControllerLayoutGuide type="bottom" id="UNz-Gx-lIr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7eH-lX-xn8">
+                                <rect key="frame" x="0.0" y="-8" width="414" height="744"/>
+                                <animations/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KUL-sq-GuC">
+                                    <size key="itemSize" width="250" height="250"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="selfiesCell" id="xQE-uY-5xk" customClass="SelfieCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eg7-i0-QRX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstItem="eg7-i0-QRX" firstAttribute="leading" secondItem="xQE-uY-5xk" secondAttribute="leading" id="EFd-EE-lyP"/>
+                                            <constraint firstItem="eg7-i0-QRX" firstAttribute="top" secondItem="xQE-uY-5xk" secondAttribute="top" id="QaI-z9-P3l"/>
+                                            <constraint firstAttribute="bottom" secondItem="eg7-i0-QRX" secondAttribute="bottom" id="TmO-Sh-jOn"/>
+                                            <constraint firstAttribute="trailing" secondItem="eg7-i0-QRX" secondAttribute="trailing" id="rf8-tp-O8f"/>
+                                        </constraints>
+                                        <size key="customSize" width="150" height="150"/>
+                                        <connections>
+                                            <outlet property="selfieImageView" destination="eg7-i0-QRX" id="K3d-0I-Kmf"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Sh2-l9-QGg"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="IOb-AH-b9t"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7eH-lX-xn8" firstAttribute="bottom" secondItem="UNz-Gx-lIr" secondAttribute="top" id="PGz-ND-gbs"/>
+                            <constraint firstItem="7eH-lX-xn8" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-8" id="cUK-s1-Zhb"/>
+                            <constraint firstAttribute="trailing" secondItem="7eH-lX-xn8" secondAttribute="trailing" id="ics-wD-NAZ"/>
+                            <constraint firstItem="7eH-lX-xn8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="xzQ-oB-XRE"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="selfiesCollectionView" destination="7eH-lX-xn8" id="TfD-sL-BLc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="298"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA131001A78080D00A1F1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA130FF1A78080D00A1F1D1 /* main.m */; };
+		0EA131031A78080D00A1F1D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA131021A78080D00A1F1D1 /* AppDelegate.m */; };
+		0EA131061A78080D00A1F1D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA131051A78080D00A1F1D1 /* ViewController.m */; };
+		0EA131091A78080D00A1F1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA131071A78080D00A1F1D1 /* Main.storyboard */; };
+		0EA1310B1A78080D00A1F1D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA1310A1A78080D00A1F1D1 /* Images.xcassets */; };
+		0EA1310E1A78080D00A1F1D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA1310C1A78080D00A1F1D1 /* LaunchScreen.xib */; };
+		0EA1311A1A78080D00A1F1D1 /* FanFies.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA131191A78080D00A1F1D1 /* FanFies.m */; };
+		0EA131261A78096900A1F1D1 /* FanfiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA131251A78096900A1F1D1 /* FanfiesService.m */; };
+		0EA1312D1A78316200A1F1D1 /* SelfieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1312C1A78316200A1F1D1 /* SelfieCollectionViewCell.m */; };
+		F49EEDE41B361C57007E1DFB /* LMGeocoder in Resources */ = {isa = PBXBuildFile; fileRef = F49EEDE31B361C57007E1DFB /* LMGeocoder */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA131141A78080D00A1F1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA130F21A78080D00A1F1D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA130F91A78080D00A1F1D1;
+			remoteInfo = Selfies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA130FA1A78080D00A1F1D1 /* Fanfies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanfies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA130FE1A78080D00A1F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA130FF1A78080D00A1F1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EA131011A78080D00A1F1D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EA131021A78080D00A1F1D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EA131041A78080D00A1F1D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EA131051A78080D00A1F1D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EA131081A78080D00A1F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EA1310A1A78080D00A1F1D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EA1310D1A78080D00A1F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0EA131131A78080D00A1F1D1 /* Fanfies.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fanfies.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA131181A78080D00A1F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA131191A78080D00A1F1D1 /* FanFies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanFies.m; sourceTree = "<group>"; };
+		0EA131241A78096900A1F1D1 /* FanfiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanfiesService.h; sourceTree = "<group>"; };
+		0EA131251A78096900A1F1D1 /* FanfiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanfiesService.m; sourceTree = "<group>"; };
+		0EA1312B1A78316200A1F1D1 /* SelfieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieCollectionViewCell.h; sourceTree = "<group>"; };
+		0EA1312C1A78316200A1F1D1 /* SelfieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieCollectionViewCell.m; sourceTree = "<group>"; };
+		F49EEDE31B361C57007E1DFB /* LMGeocoder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LMGeocoder; path = Selfies/LMGeocoder; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA130F71A78080D00A1F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA131101A78080D00A1F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA130F11A78080D00A1F1D1 = {
+			isa = PBXGroup;
+			children = (
+				F49EEDE31B361C57007E1DFB /* LMGeocoder */,
+				0EA130FC1A78080D00A1F1D1 /* Selfies */,
+				0EA131161A78080D00A1F1D1 /* SelfiesTests */,
+				0EA130FB1A78080D00A1F1D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA130FB1A78080D00A1F1D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA130FA1A78080D00A1F1D1 /* Fanfies.app */,
+				0EA131131A78080D00A1F1D1 /* Fanfies.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA130FC1A78080D00A1F1D1 /* Selfies */ = {
+			isa = PBXGroup;
+			children = (
+				0EA1312A1A78313700A1F1D1 /* Collection Cell */,
+				0EA131231A78090F00A1F1D1 /* Model/Service */,
+				0EA131011A78080D00A1F1D1 /* AppDelegate.h */,
+				0EA131021A78080D00A1F1D1 /* AppDelegate.m */,
+				0EA131041A78080D00A1F1D1 /* ViewController.h */,
+				0EA131051A78080D00A1F1D1 /* ViewController.m */,
+				0EA131071A78080D00A1F1D1 /* Main.storyboard */,
+				0EA1310A1A78080D00A1F1D1 /* Images.xcassets */,
+				0EA1310C1A78080D00A1F1D1 /* LaunchScreen.xib */,
+				0EA130FD1A78080D00A1F1D1 /* Supporting Files */,
+			);
+			path = Selfies;
+			sourceTree = "<group>";
+		};
+		0EA130FD1A78080D00A1F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EA130FE1A78080D00A1F1D1 /* Info.plist */,
+				0EA130FF1A78080D00A1F1D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EA131161A78080D00A1F1D1 /* SelfiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA131191A78080D00A1F1D1 /* FanFies.m */,
+				0EA131171A78080D00A1F1D1 /* Supporting Files */,
+			);
+			path = SelfiesTests;
+			sourceTree = "<group>";
+		};
+		0EA131171A78080D00A1F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EA131181A78080D00A1F1D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EA131231A78090F00A1F1D1 /* Model/Service */ = {
+			isa = PBXGroup;
+			children = (
+				0EA131241A78096900A1F1D1 /* FanfiesService.h */,
+				0EA131251A78096900A1F1D1 /* FanfiesService.m */,
+			);
+			name = Model/Service;
+			sourceTree = "<group>";
+		};
+		0EA1312A1A78313700A1F1D1 /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0EA1312B1A78316200A1F1D1 /* SelfieCollectionViewCell.h */,
+				0EA1312C1A78316200A1F1D1 /* SelfieCollectionViewCell.m */,
+			);
+			name = "Collection Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA130F91A78080D00A1F1D1 /* Fanfies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA1311D1A78080D00A1F1D1 /* Build configuration list for PBXNativeTarget "Fanfies" */;
+			buildPhases = (
+				0EA130F61A78080D00A1F1D1 /* Sources */,
+				0EA130F71A78080D00A1F1D1 /* Frameworks */,
+				0EA130F81A78080D00A1F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fanfies;
+			productName = Selfies;
+			productReference = 0EA130FA1A78080D00A1F1D1 /* Fanfies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EA131121A78080D00A1F1D1 /* FanfiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA131201A78080D00A1F1D1 /* Build configuration list for PBXNativeTarget "FanfiesTests" */;
+			buildPhases = (
+				0EA1310F1A78080D00A1F1D1 /* Sources */,
+				0EA131101A78080D00A1F1D1 /* Frameworks */,
+				0EA131111A78080D00A1F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA131151A78080D00A1F1D1 /* PBXTargetDependency */,
+			);
+			name = FanfiesTests;
+			productName = SelfiesTests;
+			productReference = 0EA131131A78080D00A1F1D1 /* Fanfies.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA130F21A78080D00A1F1D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					0EA130F91A78080D00A1F1D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0EA131121A78080D00A1F1D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0EA130F91A78080D00A1F1D1;
+					};
+				};
+			};
+			buildConfigurationList = 0EA130F51A78080D00A1F1D1 /* Build configuration list for PBXProject "Fanfies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA130F11A78080D00A1F1D1;
+			productRefGroup = 0EA130FB1A78080D00A1F1D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA130F91A78080D00A1F1D1 /* Fanfies */,
+				0EA131121A78080D00A1F1D1 /* FanfiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA130F81A78080D00A1F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA131091A78080D00A1F1D1 /* Main.storyboard in Resources */,
+				0EA1310E1A78080D00A1F1D1 /* LaunchScreen.xib in Resources */,
+				0EA1310B1A78080D00A1F1D1 /* Images.xcassets in Resources */,
+				F49EEDE41B361C57007E1DFB /* LMGeocoder in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA131111A78080D00A1F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA130F61A78080D00A1F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA131061A78080D00A1F1D1 /* ViewController.m in Sources */,
+				0EA131031A78080D00A1F1D1 /* AppDelegate.m in Sources */,
+				0EA131001A78080D00A1F1D1 /* main.m in Sources */,
+				0EA1312D1A78316200A1F1D1 /* SelfieCollectionViewCell.m in Sources */,
+				0EA131261A78096900A1F1D1 /* FanfiesService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA1310F1A78080D00A1F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA1311A1A78080D00A1F1D1 /* FanFies.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EA131151A78080D00A1F1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA130F91A78080D00A1F1D1 /* Fanfies */;
+			targetProxy = 0EA131141A78080D00A1F1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EA131071A78080D00A1F1D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA131081A78080D00A1F1D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EA1310C1A78080D00A1F1D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA1310D1A78080D00A1F1D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EA1311B1A78080D00A1F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EA1311C1A78080D00A1F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA1311E1A78080D00A1F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Selfies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Fanfies;
+			};
+			name = Debug;
+		};
+		0EA1311F1A78080D00A1F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Selfies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Fanfies;
+			};
+			name = Release;
+		};
+		0EA131211A78080D00A1F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Fanfies;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfies.app/Fanfies";
+			};
+			name = Debug;
+		};
+		0EA131221A78080D00A1F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Fanfies;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfies.app/Fanfies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA130F51A78080D00A1F1D1 /* Build configuration list for PBXProject "Fanfies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA1311B1A78080D00A1F1D1 /* Debug */,
+				0EA1311C1A78080D00A1F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA1311D1A78080D00A1F1D1 /* Build configuration list for PBXNativeTarget "Fanfies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA1311E1A78080D00A1F1D1 /* Debug */,
+				0EA1311F1A78080D00A1F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA131201A78080D00A1F1D1 /* Build configuration list for PBXNativeTarget "FanfiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA131211A78080D00A1F1D1 /* Debug */,
+				0EA131221A78080D00A1F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EA130F21A78080D00A1F1D1 /* Project object */;
+}
